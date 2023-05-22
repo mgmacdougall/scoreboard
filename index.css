@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    max-width: 750px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    columns: #F94F6D;
+}
+
+.container>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    display: flex;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: xxx-large;
+    color: #F94F6D;
+
+}
+
+.btn-group {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+.score-number{
+    display: inline;
+    border: 1px solid #9AABD8;
+    padding:5px;
+    margin-top:100px;
+}

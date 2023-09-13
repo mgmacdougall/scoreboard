@@ -32,5 +32,5 @@ guestTwoButton.addEventListener("click", function() {
   guestScoreElem.textContent = guestScore += 2;
 });
 guestThreeButton.addEventListener("click", function() {
-  guestScoreElem.textContent = guestScore += 13;
+  guestScoreElem.textContent = guestScore += 3;
 });
